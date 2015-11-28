@@ -11,6 +11,34 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
 */
-body {
-    background-color: #4cff00;
+
+#top-header-menu-container {
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&amp;1+0,0.8+100 */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 20%, rgba(255,255,255,0.9) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 20%,rgba(255,255,255,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 20%,rgba(255,255,255,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ccffffff',GradientType=0 ); /* IE6-9 */
+
+    position:  fixed;
+    width: 100%;
+    min-width: 100%;
+    z-index: 1;
+    border-bottom: 1px solid #eaeaea;
+}
+
+#top-header-menu {
+    text-align:center;
+}
+#top-header-menu {
+    margin: 0.5em; /* sets the height of the menu*/
+}
+#top-header-menu li{
+    display:inline;
+    padding:0 20px; /* variable width */
+}
+
+#top-header-menu li:hover{
+    border-bottom: 2px solid #808080;
+    padding-bottom: 10px;
 }

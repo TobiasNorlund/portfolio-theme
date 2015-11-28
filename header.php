@@ -22,13 +22,15 @@
 </head>
 
 <body <?php body_class(); ?>>
+<div id="top-header-menu-container">
+    <?php wp_nav_menu( array( 'theme_location' => 'top-header-menu', 'menu_id' => 'top-header-menu' ) ); ?>
+</div>
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyfifteen' ); ?></a>
 
-	<div id="sidebar" class="sidebar">
+    <div id="sidebar" class="sidebar">
 		<header id="masthead" class="site-header" role="banner">
 			<div class="site-branding">
-                headerrrr
 				<?php
 					if ( is_front_page() && is_home() ) : ?>
 						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
