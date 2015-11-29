@@ -1,0 +1,9 @@
+body {
+    background-color: #000;
+}
+
+@media screen {
+    body:before {
+        display: none;  
+    }
+}
