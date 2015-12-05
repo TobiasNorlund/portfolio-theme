@@ -2,6 +2,10 @@ body {
     background-color: #fff;
 }
 
+p {
+    margin-bottom: 0.5em;
+}
+
 #logo {
     background-image: url(images/logo.png);
     background-size: cover;
@@ -38,12 +42,15 @@ body {
 
 .section .head {
     padding: 20px 50px 20px 50px;
+    /*background-color: #fff4a8;*/
+}
+
+.section .body {
+    /*background-color: #f00;*/
 }
 
 .section .head .icon {
-    background-color: #bbbbbb;
-    width: 60px;
-    height: 60px;
+    color: #bbbbbb;
 }
 
 .section .head h1 {
@@ -59,14 +66,6 @@ body {
     color: #bbbbbb;
 }
 
-.section-left .body {
-    padding:  40px;
-}
-
-.section-right .body {
-    padding: 40px 0px 40px 40px;
-}
-
 .section .body p {
     font-style: italic;
 }
@@ -80,8 +79,12 @@ body {
     text-align: right;
 }
 
+.section-left .body {
+    padding:  10px 40px 40px 40px;
+}
+
 .section-left .icon {
-    float: right;
+    /*float: right;*/
 }
 
 /* -RIGHT*/
@@ -93,13 +96,14 @@ body {
 }
 
 .section-right .body {
+    padding:  0px 0px 40px 40px;
     float: right;
+    text-align: right;
 }
-
 /* --- TIMELINE --- */
 
 .timeline {
-    position: relative;
+
 }
 
 .timeline-head {
@@ -108,9 +112,7 @@ body {
 }
 
 .timeline-head .icon {
-    min-width: 40px;
-    height: 40px;
-    background-color: #bbbbbb;
+    color: #bbbbbb;
     display: table-cell;
 }
 
@@ -135,7 +137,7 @@ body {
     display: table;
     width: 100%;
     border-spacing: 0px 20px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .timeline ol li{
@@ -162,6 +164,7 @@ body {
     border-radius: 4px;
     height: 45px;
     vertical-align: middle;
+    margin-top: 20px;
 }
 
 .custom-tooltip span {
@@ -200,7 +203,7 @@ body {
     vertical-align: top;
     width: 100px;
     text-align: center;
-    padding-top: 8px;
+    padding-top: 28px;
 }
 
 .timeline-item-bullet {
@@ -213,12 +216,115 @@ body {
     background-color: white;
 }
 
+.timeline-item-bullet-plus {
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #8ad9fb;
+    vertical-align: middle;
+    padding-top: 6px;
+    color: #fff;
+}
+
+.timeline-item-bullet-plus:hover {
+    cursor: pointer;
+}
+
 .timeline .content-container {
     font-size: 0.8em;
+    vertical-align: top;
 }
 
 .timeline .content-container h2 {
     font-family: sans-serif;
     font-size: 1.3em;
     margin-bottom: -5px;
+}
+
+.timeline .content-container h3 {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #666;
+    line-height: 1em;
+    margin: 5px 0;
+}
+
+.timeline .content-container em {
+    color: gray;
+}
+
+.timeline .timeline-rail {
+    position: absolute; 
+    width: 0px;
+    height: 100%; 
+    left:199px; 
+    border-left: 1px dashed gray; 
+    z-index: -1;
+}
+
+.timeline .icon-container {
+    display: table-cell;
+    width: 150px;
+    padding: 0 10px;
+}
+
+.timeline .icon-container img {
+    width: 100%;
+}
+
+.timeline .hidden {
+    display: none;
+    visibility: hidden;
+}
+
+/* -- BAR TABLE --- */
+
+.bars-container {
+    display: table;
+    width: 100%;
+    font-size: 0.8em;
+}
+
+.section-right .bars-container {
+    text-align: left;
+}
+
+.bar-item {
+    display: table-row;
+    line-height: 1.4em;
+}
+
+.bar-container {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.bar-description {
+    display: table-cell;
+    white-space: nowrap;
+    padding: 0px 15px;
+}
+
+.bar-header {
+    display: table-row;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.bar-header .bar-description {
+    padding-top: 10px;
+}
+
+.bar {
+    display: block;
+    background-color: #8ad9fb;
+    height: 7px;
+    width: 1px;
+}
+
+.section-right .bar {
+    float: right;
 }
