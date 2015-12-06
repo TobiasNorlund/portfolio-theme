@@ -38,9 +38,9 @@
 			<em>Who I am</em>
 		</div>
 		<div class="body">
-			<p>I am a creative and driven guy who is passionate about problem solving in exciting areas such as <strong>artificial 
+			<em>I am a creative and driven guy who is passionate about problem solving in exciting areas such as <strong>artificial 
                 intelligence</strong> and <strong>machine learning</strong>. More specifically areas such as <strong>computer vision</strong> and <strong>natural language 
-                processing</strong> is of particular interest which in the latest past have shown great progress.</p>
+                processing</strong> is of particular interest which in the latest past have shown great progress.</em>
 		</div>
 	</div>
 
@@ -220,6 +220,36 @@
         </div>
     </div>
 
+    <div class="section section-right">
+        <div class="head">
+			<i class="icon fa fa-cubes fa-3x"></i>
+			<h1>Projects</h1>
+			<em>What I have done</em>
+		</div>
+		<div class="body" style="width: calc(100% - 390px)">
+			<div class="projects-list-item"><div class="icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/photoembroidery.jpg" alt="PhotoEmbroidery.co.uk"></div>
+                <h2>PhotoEmbroidery.co.uk</h2>
+                <p>During my spare time I develop and run my own business which consists of an online web service that transforms photos into cross stitch embroideries. 
+                    A site where you can upload your own photo and follow a user friendly wizard which transforms the photo into a cross stitch embroidery. You can then 
+                    buy the whole kit including all that is needed for stitching the photo. The service is (by me) considered to be the world's best of its kind. </p>
+                <p>This is a project I have developed and ran during several years and I have learnt so much along the way. Ranging from general software architecture patterns 
+                    to using version control systems, this is the most valuable software development experience I have so far. </p>
+                <p>It is worth a visit: <a href="http://photoembroidery.co.uk" target="_blank">www.photoembroidery.co.uk</a></p>
+            </div>
+            <div class="projects-list-item"><div class="icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/wildlifesecurity.png" alt="Wildlife Security"></div>
+                <h2>Wildlife Security</h2>
+                <p>In a group project held at the Computer Vision Laboratory at Institute of Technology in Link&#246;ping, Sweden fall 2015, I participated to create a system of 
+                    connected smartphones acting as "camera traps" for catching poachers in the African savannah. The smartphones should be able to recognize objects in 
+                    pictures taken by the onboard camera and alarm park rangers when poachers are detected. The project involved tasks such as Visual Object Recognition and 
+                    Visual Object Tracking, as well as general system architecture engineering among others.</p>
+                <p>Official webpage: <a href="http://wildlifesecuroty.se/projects/image-learning/" target="_blank">www.wildlifesecurity.se/projects/image-learning/</a></p>
+            </div>
+            <div class="projects-list-item">
+                Find more projects in my online <a href="/portfolio">portfolio &#187;</a>
+            </div>
+		</div>
+    </div>
+
     <div class="section timeline">
         <div class="timeline-head">
             <i class="icon fa fa-graduation-cap fa-2x"></i>
@@ -241,7 +271,7 @@
                     <div class="bullet-container"><div class="timeline-item-bullet"></div></div>
                     <div class="content-container">
                         <h2>Exchange semester at ETH, Z&#252;rich, Switzerland</h2>
-                        <h3>As an extra fifth master semester I went to ETH in Z&#252;rich where I mainly took classes in Machine Learning</h3>
+                        <p>As an extra fifth master semester I went to ETH in Z&#252;rich where I mainly took classes in Machine Learning</p>
                         <em>ETH, Z&#252;rich, Switzerland</em>
                     </div>
                 </li>
@@ -255,7 +285,7 @@
                     <div class="bullet-container"><div class="timeline-item-bullet"></div></div>
                     <div class="content-container">
                         <h2>Master of Science: Applied Physics and Electrical Engineering</h2>
-                        <h3>Master focus: Signal and Image processing</h3>
+                        <p>Master focus: Signal and Image processing</p>
                         <em>Institute of Technology, Link&#246;ping University, Sweden</em>
                     </div>
                 </li>
@@ -269,7 +299,7 @@
                     <div class="bullet-container"><div class="timeline-item-bullet"></div></div>
                     <div class="content-container">
                         <h2>Industrial Engineering High School Program</h2>
-                        <em>ABB Indtustrial High School, V&#228;ster&#229;s, Sweden</em>
+                        <em>ABB Industrial High School, V&#228;ster&#229;s, Sweden</em>
                     </div>
                 </li>
             </ol>
@@ -277,7 +307,45 @@
         </div>
     </div>
 
+    <div class="section section-right">
+        <div class="head">
+			<i class="icon fa fa-bicycle fa-3x"></i>
+			<h1>Dedication</h1>
+			<em>Sparetime activities</em>
+		</div>
+        <div class="body" style="width: calc(100% - 435px)">
+            <div class="projects-list-item">
+                <h2>Badminton</h2>
+                <p>I have played badminton almost my entire life. During the child and teenage years I competed a lot and was as best ranked A 
+                    (the second highest rank in Sweden) before I moved to start my studies. I was also involved as badminton trainer both when 
+                    I actively played but also during my studies. This requires leadership qualities and clear communicative skills.</p></div>
+            <div class="projects-list-item">
+            <h2>Study Board Representative</h2>
+            <p>I was for one year a student representative of my university program and actively worked for improving the program and 
+                bring the student's opinions up to the executive boards. We evaluated all bachelor as well as many master courses during 
+                the year and also worked for improving the studying environment at the university.</p>
+        </div></div>
+    </div>
+
+    <div class="section section-left">
+        <div class="head" style="padding-left: 0">
+			<i class="icon fa fa-bullhorn fa-3x"></i>
+			<h1>Language</h1>
+			<em>What I speak</em>
+		</div>
+        <div class="body">
+                Swedish (mother tounge)<br>
+                English (fluent)<br>
+                German (basic)
+
+        </div>
+    </div>
+
 </div>
+
+<footer>
+
+</footer>
 
 <?php wp_footer(); ?>
 
