@@ -424,4 +424,8 @@ footer {
     .bullet-container{
         padding-top: 13px;
     }
+
+    #top-header-menu-container{
+        position: absolute;
+    }
 }
