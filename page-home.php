@@ -50,7 +50,7 @@
             <h1>Skills</h1>
             <em>What I know</em>
         </div>
-        <div class="body" style="width: calc(80% - 320px)">
+        <div class="body" style="max-width: 500px; float: right; margin-bottom: 40px;">
             <div class="bars-container">
                 <div class="bar-header">
                     <div class="bar-container"></div>
@@ -226,7 +226,7 @@
 			<h1>Projects</h1>
 			<em>What I have done</em>
 		</div>
-		<div class="body" style="width: calc(100% - 390px)">
+		<div class="body">
 			<div class="projects-list-item"><div class="icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/photoembroidery.jpg" alt="PhotoEmbroidery.co.uk"></div>
                 <h2>PhotoEmbroidery.co.uk</h2>
                 <p>During my spare time I develop and run my own business which consists of an online web service that transforms photos into cross stitch embroideries. 
@@ -313,7 +313,7 @@
 			<h1>Dedication</h1>
 			<em>Sparetime activities</em>
 		</div>
-        <div class="body" style="width: calc(100% - 435px)">
+        <div class="body">
             <div class="projects-list-item">
                 <h2>Badminton</h2>
                 <p>I have played badminton almost my entire life. During the child and teenage years I competed a lot and was as best ranked A 
@@ -328,7 +328,7 @@
     </div>
 
     <div class="section section-left">
-        <div class="head" style="padding-left: 0">
+        <div class="head">
 			<i class="icon fa fa-bullhorn fa-3x"></i>
 			<h1>Language</h1>
 			<em>What I speak</em>
